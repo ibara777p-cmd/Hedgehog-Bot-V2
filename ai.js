@@ -1,8 +1,7 @@
-// scripts/cmds/ia.js
-// Commande IA utilisant Google Gemini, votre clé est lue depuis les secrets GitHub
+// scripts/cmds/ai.js
 module.exports = {
     config: {
-        name: "ia",
+        name: "ai",
         version: "1.0",
         author: "TonNom",
         countDown: 5,
@@ -25,7 +24,6 @@ module.exports = {
             return message.reply(getLang("noInput"));
         }
 
-        // Récupère la clé API depuis les variables d'environnement
         const GEMINI_API_KEY = process.env.GEMINI_KEY;
         const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
