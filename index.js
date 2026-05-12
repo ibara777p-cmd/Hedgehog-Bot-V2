@@ -16,7 +16,7 @@
  * ! Nếu thay đổi nó, bạn sẽ bị cấm vĩnh viễn
  * Cảm ơn bạn đã sử dụng
  */
-
+require('dotenv').config();
 const { spawn } = require("child_process");
 const log = require("./logger/log.js");
 
