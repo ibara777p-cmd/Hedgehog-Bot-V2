@@ -8,6 +8,7 @@
 		"npm": ">=7.0.0"
 	},
 	"dependencies": {
+		"dotenv": "^16.0.3",
 		"@distube/ytdl-core": "^4.13.3",
 		"axios": "^1.4.0",
 		"bcrypt": "^5.0.1",
@@ -68,6 +69,7 @@
 	},
 	"homepage": "https://github.com/ntkhang03/Goat-Bot-V2#readme",
 	"devDependencies": {
+		
 		"eslint": "^8.2.0",
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-node": "^4.1.0",
